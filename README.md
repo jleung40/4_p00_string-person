@@ -1,7 +1,6 @@
 # Project 00 For NeXT CS
 ### Class Period:
-### Name0: YOUR NAME HERE
-### Name1: OTHER NAME HERE (delete this line if you are working solo)
+### Name0: Jasper
 ---
 
 
@@ -35,49 +34,59 @@ Type Racer specific requirements.
 
 ## Phase 0: Game Selection, Analysis & Plan
 
-#### Selected Game: YOUR GAME HERE
+#### Selected Game: Wordle
 
 ### Rules
 What are the core rules of your game?
 
-YOUR ANSWER HERE
+Guess the word correcty 7 chances with hints.
 
 ### Necessary Features
 What are the core features that your game should have? These should be things that __must__ be implemented in order to make the game playable, not extra features that could be added to make the game more fun to play.
 
-YOUR ANSWERS HERE
+Correct letters in wrong placement would be colored yellow and correct letters in the correct placement would be green and all others would be red.
 
 ### Extra Features
 What are some features that are not essential to gameplay, but you would like to see (provided you have time after completing the necessary features.
 
-YOUR ANSWERS HERE
+Longer words/phrases based on how many words you got correct.
 
 #### Interface
 What will your game look like?
 
-YOUR ANSWERS HERE
+A rectangle of letters the word(s)(length) by 7 boxes(height). With a additional row on the top for extra controls(like restart) and information(like words correct) and a space on the bottom with a keyboard to make it easier to know which letters not to use.
 
 ### Controls
 How will your game be controlled?
 
 Keyboard Controls:
-
+All letters of the keyboard for writing the words.
+Enter to submit guesses.
+Backspace for erasing letters
 
 Mouse Controls:
-
+Left click on restart to restart the game and change the word to another random word.
 
 
 ### Classes
 What classes will you be creating for this project? Include the instance variables and methods that you believe you will need. You will be required to create at least 2 different classes.
 
-CLASS NAME0
+CLASS NAME0: Word
 - Instance variables:
-  - LIST INSTANCE VARS HERE
+  - Char letters
 - METHODS
-  - LIST METHODS HERE
+  - array for the letters
 
-CLASS NAME1
+CLASS NAME1: Boxes
 - Instance variables:
-  - LIST INSTANCE VARS HERE
+  - int length
+  - int width
 - METHODS
-  - LIST METHODS HERE
+  - 2D Array for boxes
+
+CLASS NAME2: Keyboard
+- Instance variables:
+  - Int Length
+  - Int width
+- METHODS
+  - 2D array for the keyboard(going to be rectangular and not look like a keyboard)
