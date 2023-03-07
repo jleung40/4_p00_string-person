@@ -49,7 +49,7 @@ Correct letters in wrong placement would be colored yellow and correct letters i
 ### Extra Features
 What are some features that are not essential to gameplay, but you would like to see (provided you have time after completing the necessary features.
 
-Longer words/phrases based on how many words you got correct.
+Harder words as you get more words correct.(random words from the guess file)
 
 #### Interface
 What will your game look like?
